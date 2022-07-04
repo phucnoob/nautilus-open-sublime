@@ -35,15 +35,15 @@ Installation
 ------------
 
 On most Unix-like systems, you should be able to install this package using the
-following common steps:
+following common steps (you need root privilege):
 
 ``` sh
 ./configure
 make
-make install-strip
+sudo make install-strip
 ```
 
-If the `strip` utility is not available on your machine, use `make install`
+If the `strip` utility is not available on your machine, use `sudo make install`
 instead (it will produce larger binaries).
 
 If the `configure` script is missing from your package you need to generate it
