@@ -1,0 +1,37 @@
+{
+	"name": "nautilus-open-sublime",
+	"version": "0.1.0",
+	"description": "Open Sublime Text directly from Nautilus",
+	"homepage": "https://github.com/phucnoob/nautilus-open-sublime",
+	"author": "Pham Van Phuc",
+	"license": "GPL-3.0-or-later",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/phucnoob/nautilus-open-sublime.git"
+	},
+	"dependencies": {
+		"glib2": "*",
+		"libnautilus-extension": "*",
+	},
+	"devDependencies": {
+		"gettext": ">=0.19",
+		"pkgconf": "*"
+	},
+	"src": [
+		"src/nautilus-open-sublime.c"
+	],
+	"bugs": {
+		"url": "https://github.com/phucnoob/nautilus-open-sublime/issues",
+		"email" : "phuclaplace@gmail.com"
+	},
+	"keywords": [
+		"c",
+		"desktop",
+		"desktop-environment",
+		"gnome",
+		"gnu",
+		"nautilus",
+		"nautilus-extension"
+	]
+}
+
